@@ -30,6 +30,7 @@ info = {
      'GRAPHICS',
 #     'NFC',
 #     'NEOPIXEL'
+     'LCD_SPI_UNBUF',
    ],
    'makefile' : [
 #    'SAVE_ON_FLASH=1',
