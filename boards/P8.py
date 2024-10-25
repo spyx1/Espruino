@@ -30,7 +30,6 @@ info = {
      'GRAPHICS',
 #     'NFC',
 #     'NEOPIXEL'
-     'LCD_SPI_UNBUF',
    ],
    'makefile' : [
 #    'SAVE_ON_FLASH=1',
@@ -38,7 +37,6 @@ info = {
      'DEFINES+=-DNRF_BLE_GATT_MAX_MTU_SIZE=59 -DNRF_BLE_MAX_MTU_SIZE=59',
      'LDFLAGS += -Xlinker --defsym=LD_APP_RAM_BASE=0x2d18', #0x2c40+(59-23)*6
      'DEFINES+= -DUSE_FONT_6X8 -DBLE_HIDS_ENABLED=1 -DBLUETOOTH_NAME_PREFIX=\'"P8"\'',
-     'USE_LCD_SPI_UNBUF=1',
      'DEFINES+= -DSPISENDMANY_BUFFER_SIZE=126',
      'DEFINES += -DSPIFLASH_SHARED_SPI',
      'DFU_PRIVATE_KEY=targets/nrf5x_dfu/dfu_private_key.pem',
