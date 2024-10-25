@@ -39,8 +39,8 @@ info = {
      'LDFLAGS += -Xlinker --defsym=LD_APP_RAM_BASE=0x2d18', #0x2c40+(59-23)*6
      'DEFINES+= -DUSE_FONT_6X8 -DBLE_HIDS_ENABLED=1 -DBLUETOOTH_NAME_PREFIX=\'"P8"\'',
      'DEFINES+= -DSPISENDMANY_BUFFER_SIZE=126',
-     'DEFINES += -DSPIFLASH_SHARED_SPI',
-     'USE_LCD_SPI_UNBUF=1',
+     #'DEFINES += -DSPIFLASH_SHARED_SPI',
+     #'USE_LCD_SPI_UNBUF=1',
      'DFU_PRIVATE_KEY=targets/nrf5x_dfu/dfu_private_key.pem',
      'NRF_BL_DFU_INSECURE=1',
      'DFU_SETTINGS=--application-version 0xff --hw-version 52 --sd-req 0x8C,0x91'
