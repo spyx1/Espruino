@@ -35,7 +35,7 @@ info = {
         "optimizeflags": "-Os",
         "libraries": [
             "BLUETOOTH",
-            #  'NET',
+            'NET',
             "GRAPHICS",
             # 'NFC',
             #"NEOPIXEL",
