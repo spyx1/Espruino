@@ -89,7 +89,7 @@ devices = {
         "pin_charging": "D17",  # active low
         "pin_voltage": "D31",
     },
-    "NFC": {"pin_a": "D9", "pin_b": "D10"},
+    #"NFC": {"pin_a": "D9", "pin_b": "D10"},
     "SPIFLASH": {
         "pin_cs": "D25",
         "pin_sck": "D21",
@@ -108,17 +108,18 @@ board = {}
 # see also https://github.com/Seeed-Studio/Adafruit_nRF52_Arduino/blob/master/variants/Seeed_XIAO_nRF52840/variant.h
 def get_pins():
     pins = pinutils.generate_pins(0, 47)  # 48 General Purpose I/O Pins.
-    pinutils.findpin(pins, "PD2", True)["functions"]["ADC1_IN0"] = 0
-    pinutils.findpin(pins, "PD3", True)["functions"]["ADC1_IN1"] = 0
-    pinutils.findpin(pins, "PD4", True)["functions"]["ADC1_IN2"] = 0
-    pinutils.findpin(pins, "PD5", True)["functions"]["ADC1_IN3"] = 0
-    pinutils.findpin(pins, "PD9", True)["functions"]["NFC1"] = 0
-    pinutils.findpin(pins, "PD10", True)["functions"]["NFC2"] = 0
-    pinutils.findpin(pins, "PD17", True)["functions"]["NEGATED"] = 0
-    pinutils.findpin(pins, "PD26", True)["functions"]["NEGATED"]=0;
-    pinutils.findpin(pins, "PD28", True)["functions"]["ADC1_IN4"] = 0
-    pinutils.findpin(pins, "PD29", True)["functions"]["ADC1_IN5"] = 0
-    pinutils.findpin(pins, "PD31", True)["functions"]["ADC1_IN7"] = 0
+    #pinutils.findpin(pins, "PD2", True)["functions"]["ADC1_IN0"] = 0
+    #pinutils.findpin(pins, "PD3", True)["functions"]["ADC1_IN1"] = 0
+    #pinutils.findpin(pins, "PD4", True)["functions"]["ADC1_IN2"] = 0
+    #pinutils.findpin(pins, "PD5", True)["functions"]["ADC1_IN3"] = 0
+    #pinutils.findpin(pins, "PD9", True)["functions"]["NFC1"] = 0
+    #pinutils.findpin(pins, "PD10", True)["functions"]["NFC2"] = 0
+    #pinutils.findpin(pins, "PD17", True)["functions"]["NEGATED"] = 0
+    #pinutils.findpin(pins, "PD26", True)["functions"]["NEGATED"]=0;
+    #pinutils.findpin(pins, "PD28", True)["functions"]["ADC1_IN4"] = 0
+    #pinutils.findpin(pins, "PD29", True)["functions"]["ADC1_IN5"] = 0
+    #pinutils.findpin(pins, "PD31", True)["functions"]["ADC1_IN7"] = 0
+    
     # D13 PIN_CHARGING_CURRENT
     # battery charging current see https://wiki.seeedstudio.com/XIAO_BLE/#battery-charging-current
     # HIGH: 100mA, LOW: 50mA
