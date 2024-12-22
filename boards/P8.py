@@ -46,6 +46,7 @@ info = {
      'DEFINES+= -DSPISENDMANY_BUFFER_SIZE=126',
      'DFU_PRIVATE_KEY=targets/nrf5x_dfu/dfu_private_key.pem',
      'NRF_BL_DFU_INSECURE=1',
+     'ESPR_PBF_FONTS',
      'DFU_SETTINGS=--application-version 0xff --hw-version 52 --sd-req 0x8C,0x91'
    ]
  }
