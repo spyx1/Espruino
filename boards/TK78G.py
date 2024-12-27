@@ -16,7 +16,7 @@
 import pinutils;
 
 info = {
- 'name' : "TK78G Smarty Pants Watch",
+ 'name' : "TK78G",
  'link' :  [ "https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52-DK" ],
  'espruino_page_link' : 'nRF52840DK',
  'default_console' : "EV_BLUETOOTH",
