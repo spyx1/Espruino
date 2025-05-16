@@ -16,7 +16,7 @@
 import pinutils;
 
 info = {
- 'name' : "P8 DaFit smartwatch",
+ 'name' : "P8 smartwatch",
 # 'link' :  [ "https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52-DK" ],
 # 'espruino_page_link' : 'nRF52832DK',
  'boardname' : 'P8', # visible in process.env.BOARD
