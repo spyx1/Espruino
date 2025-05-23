@@ -55,7 +55,7 @@ info = {
 #     'DEFINES += -DUART1_ENABLED=0',
      'DEFINES += -DSPIFLASH_SHARED_SPI',
      'DEFINES += -DFDS_VIRTUAL_PAGES=2',
-     'NRF_SDK14=1',
+     'NRF_SDK15=1',
    ]
  }
 };
